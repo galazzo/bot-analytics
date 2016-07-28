@@ -39,7 +39,11 @@ MongoClient.connect(connection, function (err, db) {
 });
 
 
-
+app.get("/", function (req, res) {
+	res.status(200);
+	res.write("Bot Analytics Platform");
+	res.end();
+}); 
 
 /*var dbConfig = nconf.get('database');
 
