@@ -1,0 +1,16 @@
+{
+  "name": "bot-analytics",
+  "version": "0.0.0",
+  "description": "Bot-Analytics",
+  "main": "app.js",
+  "author": {
+    "name": "sebas",
+    "email": ""
+  },
+  "dependencies": {
+    "errorhandler": "^1.4.3",
+    "express": "^4.14.0",
+    "moment": "^2.14.1",
+    "mongodb": "^2.2.4"
+  }
+}

@@ -1,0 +1,12 @@
+﻿{
+  "project": "assi.st",
+  "database": {
+    "connection": {
+      "host": "ds042379.mlab.com",
+      "user": "galazzo",
+      "password": "sg31pfdp",
+      "port": "42379"
+    },
+    "name": "assist"
+  }
+}
