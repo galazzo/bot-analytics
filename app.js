@@ -45,29 +45,6 @@ app.get("/", function (req, res) {
 	res.end();
 }); 
 
-/*var dbConfig = nconf.get('database');
-
-
-var dbPort = dbConfig.port;
-var dbHost = dbConfig.host;
-var dbName = dbConfig.name;
-
-var dbServerName = "spac3";
-
-var MongoDB = require('mongodb').Db;
-var Server = require('mongodb').Server;
-var ObjectID = require('mongodb').ObjectID;
-
-var db = new MongoDB(dbName, new Server(dbHost, dbPort, { auto_reconnect: true }), { w: 1 });
-db.open(function (e, d) {
-	if (e) {
-		console.log(e);
-	} else {
-		console.log('connected to database :: ' + dbName);
-	}
-});
-*/
-
 /*
  * "mongodb://localhost:27017/assist"
  * "mongodb://<dbuser>:<dbpassword>@ds042379.mlab.com:42379/assist";
